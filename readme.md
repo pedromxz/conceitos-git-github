@@ -11,13 +11,23 @@ git config --global user.email pedromfreitas200@gmail.com
 
 
 ## Comando do Git
-Para iniciar o GIT em uma pasta do computador utilizamos o init.
+Iniciar o GIT em uma pasta do computador utilizamos o init.
 **IMPORTANTE**: Só é executado 1 vez.
 ```bash
 git init 
 ```
 
-Para verificar a situação do repositório (pasta) usamos o status a qualquer momento.
+Verificar a situação do repositório (pasta) usamos o status a qualquer momento.
 ```bash
 git status
+```
+
+Adiciona arquivos ao versionamento.
+```bash
+git add .
+```
+
+Salva as alterações de arquivos.
+```bash
+git commit -m "Criação do Arquivo"
 ```
