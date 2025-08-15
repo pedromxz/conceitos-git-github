@@ -22,7 +22,7 @@ Verificar a situação do repositório (pasta) usamos o status a qualquer moment
 git status
 ```
 
-Quando o status mostrar arquivos em vermelho é necessário rodar o **add** para adicionar os arquivos a serem salvos. **.** adicona todos os arquivos da pasta. **add .**
+Quando o status mostrar arquivos em vermelho é necessário rodar o **add** para adicionar os arquivos a serem salvos. **.** adiciona todos os arquivos da pasta. **add .**
 ```bash
 git add .
 ```
