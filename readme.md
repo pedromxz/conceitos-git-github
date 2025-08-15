@@ -34,7 +34,20 @@ Quando o status mostrar arquivos em vermelho é necessário rodar o **add** para
 git add .
 ```
 
-Salva as alterações de arquivos.
+Salvar uma versão dos arquivos na situação atual usamos o commit o -m adiciona uma mensagem do porque estes arquivos estão sendo salvos.
 ```bash
 git commit -m "Criação do Arquivo"
 ```
+
+Baixar as alterações que estão apenas no Github utilizamos o pull. <br>
+**IMPORTANTE:** Sempre deve baixar a ultima versão da nuvem antes de enviar a atual do computador.
+```bash
+git pull
+```
+
+Enviar os commits do pc para o GitHub utilizamos o push.
+```bash
+git push
+```
+
+
